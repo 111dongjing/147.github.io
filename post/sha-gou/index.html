@@ -50,56 +50,12 @@
         <main id="main" class="site-main" role="main">
             <article id="post-1270" class="post-1270 post type-post status-publish format-standard hentry category-90 category-129 tag-149">
                 <header class="entry-header">
-                    <h1 class="entry-title">安装mysql</h1>
-                    <p class="entry-census">发布于 2020-11-19</p>
+                    <h1 class="entry-title">傻狗</h1>
+                    <p class="entry-census">发布于 2020-11-20</p>
                     <hr>
                 </header>
                 <div class="neko">
-                    <p>1.安装mysql的依赖环境</p>
-<p>安装ncurses-devel运行环境</p>
-<p>[root@localhost ~]# yum -y install ncurses-devel</p>
-<p>2.解压cmake和mysql软件包<br>
-[root@localhost ~]# tar -zxvf cmake-2.8.6.tar.gz -C /usr/src</p>
-<p>[root@localhost ~]# tar -zxvf mysql-5.6.36.tar.gz -C /usr/src</p>
-<p>3.安装cmake</p>
-<p>[root@localhost ~]# cd /usr/src/cmake-2.8.6<br>
-[root@localhost cmake-2.8.6]# ./configure &amp;&amp; gmake &amp;&amp; gmake install</p>
-<p>4.配置mysql安装环境</p>
-<p>cmake -DCMAKE_INSTALL_PREFIX=/usr/local/mysql -DSYSCONFDIR=/etc -DDEFAULT_CHARSET=utf8 -DDEFAULT_COLLATION=utf8_general_ci -DWITH_EXTRA_CHARSETS=all</p>
-<p>选项说明：<br>
--DCMAKE_INSTALL_PREFIX=/usr/local/mysql   #指定安装路径<br>
--DSYSCONFDIR=/etc			  #指定配置文件路径<br>
--DDEFAULT_CHARSET=utf8			  #默认语言编码<br>
--DDEFAULT_COLLATION=utf8_general_ci	  #默认字符集<br>
--DWITH_EXTRA_CHARSETS=all		  #支持各种字符</p>
-<p>make &amp;&amp;　make install</p>
-<p>5.优化mysql启动脚本和命令路径</p>
-<p>创建mysql用户</p>
-<p>useradd -M -s /sbin/nologin mysql</p>
-<p>复制mysql配置文件到/etc目录：<br>
-cp /usr/src/mysql-5.6.36/support-files/my-default.cnf /etc/my.cnf</p>
-<p>复制mysql脚本文件到/etc/rc.d/init.d/目录中<br>
-cp /usr/src/mysql-5.6.36/support-files/mysql.server /etc/rc.d/init.d/mysqld</p>
-<p>chmod a+x /etc/rc.d/init.d/mysqld</p>
-<p>添加mysqld服务到服务管理器<br>
-chkconfig --add mysqld<br>
-chkconfig mysqld on</p>
-<p>优化mysql命令路径</p>
-<p>ln -s /usr/local/mysql/bin/* /usr/local/bin</p>
-<p>6.初始化mysql</p>
-<p>安装perl运行组件和运行环境：<br>
-yum -y install perl perl-devel perl-DBD*</p>
-<p>初始化mysql：<br>
-/usr/local/mysql/scripts/mysql_install_db --user=mysql --group=mysql --basedir=/usr/local/mysql --datadir=/usr/local/mysql/data</p>
-<p>启动mysql服务</p>
-<p>systemctl restart mysqld</p>
-<p>登录</p>
-<p>1.给root用户设置密码</p>
-<p>mysqladmin -u root password     #给用户第一次设置密码</p>
-<p>修改root用户密码：<br>
-mysqladmin -u root -p  password</p>
-<p>2.mysql登录</p>
-<p>mysql  -u  root  -p</p>
+                    <p>傻狗<img src="https://111dongjing.github.io/147.github.io//post-images/1605834837251.jpg" alt="" loading="lazy"></p>
 
                 </div>
             </article>
@@ -109,20 +65,14 @@ mysqladmin -u root -p  password</p>
         <div class="mdui-container">
             <div class="mdui-row">
                 
-                <a href="https://111dongjing.github.io/147.github.io/post/sha-gou/" class="mdui-ripple mdui-color-theme mdui-col-xs-2 mdui-col-sm-6 doc-footer-nav-left">
-                    <div class="doc-footer-nav-text">
-                        <i class="mdui-icon material-icons">arrow_back</i>
-                        <span class="doc-footer-nav-direction mdui-hidden-xs-down">上一篇文章</span>
-                        <div class="doc-footer-nav-chapter mdui-hidden-xs-down">傻狗</div>
-                    </div>
-                </a>
+                <div class="mdui-col-xs-2 mdui-col-sm-6 doc-footer-nav-left"></div>
                 
                 
-                <a href="https://111dongjing.github.io/147.github.io/post/bu-tong-ip-xiang-tong-duan-kou/" class="mdui-ripple mdui-color-theme mdui-col-xs-10 mdui-col-sm-6 doc-footer-nav-right">
+                <a href="https://111dongjing.github.io/147.github.io/post/an-zhuang-mysql/" class="mdui-ripple mdui-color-theme mdui-col-xs-10 mdui-col-sm-6 doc-footer-nav-right">
                     <div class="doc-footer-nav-text">
                         <i class="mdui-icon material-icons">arrow_forward</i>
                         <span class="doc-footer-nav-direction">下一篇文章</span>
-                        <div class="doc-footer-nav-chapter">不同IP 相同端口</div>
+                        <div class="doc-footer-nav-chapter">安装mysql</div>
                     </div>
                 </a>
                 
