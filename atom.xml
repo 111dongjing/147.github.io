@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://111dongjing.github.io/147.github.io/</id>
+    <id>https://www.xuweijie.top</id>
     <title>卫杰</title>
-    <updated>2020-11-20T01:16:34.568Z</updated>
+    <updated>2020-11-23T01:10:49.813Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://111dongjing.github.io/147.github.io/"/>
-    <link rel="self" href="https://111dongjing.github.io/147.github.io/atom.xml"/>
+    <link rel="alternate" href="https://www.xuweijie.top"/>
+    <link rel="self" href="https://www.xuweijie.top/atom.xml"/>
     <subtitle>一切尽意.百事从欢</subtitle>
-    <logo>https://111dongjing.github.io/147.github.io/images/avatar.png</logo>
-    <icon>https://111dongjing.github.io/147.github.io/favicon.ico</icon>
+    <logo>https://www.xuweijie.top/images/avatar.png</logo>
+    <icon>https://www.xuweijie.top/favicon.ico</icon>
     <rights>All rights reserved 2020, 卫杰</rights>
     <entry>
         <title type="html"><![CDATA[傻狗]]></title>
-        <id>https://111dongjing.github.io/147.github.io/post/sha-gou/</id>
-        <link href="https://111dongjing.github.io/147.github.io/post/sha-gou/">
+        <id>https://www.xuweijie.top/post/sha-gou/</id>
+        <link href="https://www.xuweijie.top/post/sha-gou/">
         </link>
         <updated>2020-11-20T01:13:36.000Z</updated>
-        <content type="html"><![CDATA[<p>傻狗<img src="https://111dongjing.github.io/147.github.io//post-images/1605834837251.jpg" alt="" loading="lazy"></p>
+        <content type="html"><![CDATA[<p>傻狗<img src="https://www.xuweijie.top/post-images/1605834837251.jpg" alt="" loading="lazy"></p>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[安装mysql]]></title>
-        <id>https://111dongjing.github.io/147.github.io/post/an-zhuang-mysql/</id>
-        <link href="https://111dongjing.github.io/147.github.io/post/an-zhuang-mysql/">
+        <id>https://www.xuweijie.top/post/an-zhuang-mysql/</id>
+        <link href="https://www.xuweijie.top/post/an-zhuang-mysql/">
         </link>
         <updated>2020-11-19T10:06:20.000Z</updated>
         <content type="html"><![CDATA[<p>1.安装mysql的依赖环境</p>
@@ -74,8 +74,8 @@ mysqladmin -u root -p  password</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[不同IP 相同端口]]></title>
-        <id>https://111dongjing.github.io/147.github.io/post/bu-tong-ip-xiang-tong-duan-kou/</id>
-        <link href="https://111dongjing.github.io/147.github.io/post/bu-tong-ip-xiang-tong-duan-kou/">
+        <id>https://www.xuweijie.top/post/bu-tong-ip-xiang-tong-duan-kou/</id>
+        <link href="https://www.xuweijie.top/post/bu-tong-ip-xiang-tong-duan-kou/">
         </link>
         <updated>2020-11-18T10:24:15.000Z</updated>
         <content type="html"><![CDATA[<p>1.搭建apche服务器，开启虚拟访问，实现不同IP相同端口。<br>
